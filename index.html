@@ -13,7 +13,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
@@ -132,7 +132,13 @@
     <div class="container">
   
       <h1 class="my-4">Welcome to Modern Business</h1>
-  
+
+      <!-- Provide a search field -->
+      <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+        <input name="sitesearch" type="hidden" value="example.com">
+        <input autocomplete="off" class="form-control search" name="q" placeholder="Search this site" required="required"  type="text">
+        <button class="button" type="submit">Search</button>
+      </form>
       <!-- Marketing Icons Section -->
       <div class="row">
         <div class="col-lg-4 mb-4">
